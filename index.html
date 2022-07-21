@@ -6,6 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
 <style>
+  /* have to declare the css variable/ --accent-color/--border-color/--secondary-color/now all web browsers use css variables  as well as older computers here and in developing countries since this is a newer development*/
+:root {
+  --primary-color:#834ed2 ;
+  --box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+  --border: 1px solid blue;
+}
+h1 {
+  color: var( --primary-color);
+  box-shadow: var(--box-shadow);
+}
+h2 {
+  border:  var(--border );
+  box-shadow: var(--box-shadow);
+}
+p {
+  background: var( --primary-color)
+}
  a {
    color:red;
    text-decoration:none;
