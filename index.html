@@ -34,9 +34,25 @@ p {
  a:visited {
    color: green;
  }
+ .cities {
+   display:flex;
+   flex-direction:row;
+   justify-content:space-evenly;
+ }
+ .city {
+   border :1px solid red;
+   padding: 20px;
+   flex: 1;
+ }
 </style>
 </head>
 <body>
+<div class="cities">
+  <div class="city">Paris</div>
+  <div class="city">Bangkok</div>
+  <div class="city">San Francisco</div>
+  <div class="city">Lisbon</div>
+</div>
   <h1>My Portfolio</h1>
   <a href="https://www.elephants.com">Elephants</a>
   <br/>
